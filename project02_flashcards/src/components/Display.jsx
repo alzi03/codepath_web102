@@ -53,8 +53,8 @@ const Display = () => {
 
       <div className="info">
         <h3>NBA Trivia</h3>
-        <h5>Do you know your NBA facts? Find out here!</h5>
-        <h5>Number of cards: {Flashcards.length}</h5>
+        <h6>Do you know your NBA facts? Find out here!</h6>
+        <h6>Number of cards: {Flashcards.length}</h6>
       </div>
 
       <div onClick={cardClick} className="flashcard">
