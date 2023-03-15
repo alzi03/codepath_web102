@@ -1,0 +1,49 @@
+body{
+  font-family:'Roboto', sans-serif;
+  display:flex;
+  justify-content:center;
+}
+
+li{
+  list-style: none;
+}
+
+
+#correct{
+  background-color:green;
+  text-align:center;
+  width:100px;
+}
+
+#wrong{
+  background-color:red;
+  text-align:center;  
+}
+
+.forms{
+  display: flex;
+  border:1px solid;
+  align-items: flex-start;
+}
+
+.container{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto; 
+  position: relative;
+}
+
+.mini-container{
+  display:flex;
+  gap:10px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin:50px;
+  border:1px solid;
+  background-color: beige;
+  padding:20px;
+  
+
+}
+
