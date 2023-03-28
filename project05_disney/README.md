@@ -10,12 +10,12 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [X ] **The list displays a list of data fetched using an API call**
-- [X ] **Data uses the useEffect React hook and async/await syntax**
-- [X ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ X] *insert details*
-- [X ] **A search bar allows the user to search for an item in the fetched data**
-- [X ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [X] **The list displays a list of data fetched using an API call**
+- [X] **Data uses the useEffect React hook and async/await syntax**
+- [X] **The app dashboard includes at least three summary statistics about the data such as**
+List of Video Games, Films, and TV Shows
+- [X] **A search bar allows the user to search for an item in the fetched data**
+- [X] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
 
 The following **optional** features are implemented:
 
