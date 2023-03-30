@@ -10,6 +10,7 @@ const Display = () => {
       const response = await fetch (`https://api.disneyapi.dev/character?videoGames=Kingdom%20Hearts`)
       const json = await response.json()
       const data = json.data
+      console.log(data)
       setList(data)
     }
 
@@ -28,7 +29,6 @@ const Display = () => {
   
 
   const handleChange = (e) => {
-    console.log(e.target)
     handleSubmit(e.target)
   }
 
