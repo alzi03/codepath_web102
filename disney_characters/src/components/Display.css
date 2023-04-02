@@ -8,10 +8,16 @@ body{
 
 }
 
-h3, .title{
+h3, h4, .title{
   text-align: center;
   margin: 0;
   margin-bottom: 20px;
+}
+
+.chart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 

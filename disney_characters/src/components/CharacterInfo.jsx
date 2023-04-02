@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-export default function CharacterInfo(){
+
+export default function CharacterInfo()  {
   const {name} = useParams()
   const [information, setInformation] = useState(null)
 
