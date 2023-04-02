@@ -12,16 +12,14 @@ const Display = () => {
   const [showChartData, setShowChartData] = useState([])
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData = async () => { 
       const response = await fetch (`https://api.disneyapi.dev/character?videoGames=Kingdom%20Hearts`)
       const json = await response.json()
       const data = json.data
       setList(data)
-      console.log('hi')
     }
     fetchData().catch(console.error)
-  }, [list])
-
+  }, [games])
 
   const newList = list.filter(character => character.tvShows.length !== 0 & character.films.length !== 0)
 
@@ -69,12 +67,13 @@ const Display = () => {
           }
         )
       }
-      setShowChartData(showChart)
+      let sortedData = showChart.sort((p1, p2) => (p1.num < p2.num) ? 1 : (p1.num > p2.num) ? -1 : 0)
+      sortedData = sortedData.slice(0, 3)
+      setShowChartData(sortedData)
     }
 
     setShowChart();
     createShowData();
-    console.log(showChartData)
     setFilmChart();
     setFilteredList(newList)
 
@@ -127,50 +126,52 @@ const Display = () => {
 
   return(
     <div>
-      <div className="chart">
-        <h4>Number of Films per Character</h4>
-        <BarChart
-          width={500}
-          height={300}
-          data={filmChartData}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="films" fill="#82ca9d" />
-        </BarChart>
+      <div className="charts">
+        <div className="chart">
+          <h4>Number of Films per Character</h4>
+          <BarChart
+            width={500}
+            height={300}
+            data={filmChartData}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="films" fill="#82ca9d" />
+          </BarChart>
+        </div>
+        {showChartData && 
+        <div className="chart">
+          <h4>Most Popular Shows</h4>
+          <BarChart
+            width={1000}
+            height={300}
+            data={showChartData}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="num" fill="#6E3969" />
+          </BarChart>
+        </div>
+        }
       </div>
-      {showChartData && 
-      <div className="chart">
-        <h4>Most Popular Films</h4>
-        <BarChart
-          width={500}
-          height={300}
-          data={showChartData}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="num" fill="#82ca9d" />
-        </BarChart>
-      </div>
-    }
       <h1 className="title">Kingdom Hearts Characters</h1>
       <div className="forms">
         <div>

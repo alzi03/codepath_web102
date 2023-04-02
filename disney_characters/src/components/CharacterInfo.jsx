@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
 
 
 export default function CharacterInfo()  {
@@ -12,12 +14,10 @@ export default function CharacterInfo()  {
       const URL = `https://api.disneyapi.dev/character?&videoGames=Kingdom%20Hearts&name=${name}`
       const response = await fetch(URL)
       const json = await response.json()
-      console.log(json.data)
       setInformation(json.data[0])
     }
     createData();
-  }, [])
-
+  }, [name])
 
   return(
     <div>
@@ -68,6 +68,44 @@ export default function CharacterInfo()  {
               </div>
             </div>
         </div>
+        {information &&
+        <div className="chart">
+          <BarChart
+            width={600}
+            height={300}
+            data={[
+              {
+                name: "Films",
+                count: information.films.length,
+              },
+              {
+                name: "Park Attractions",
+                count: information.parkAttractions.length,
+              },
+              {
+                name: "TV Shows",
+                count: information.tvShows.length,
+              },
+              {
+                name: "Video Games",
+                count: information.videoGames.length
+              }
+            ]}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="count" fill="#44B3C2" />
+          </BarChart>
+        </div>}
       </div>
     }
     </div>

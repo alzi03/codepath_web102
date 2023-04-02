@@ -20,6 +20,11 @@ h3, h4, .title{
   align-items: center;
 }
 
+.charts{
+  display: flex;
+  justify-content: center;
+}
+
 
 input{
   background-color: lightcyan;
@@ -91,7 +96,6 @@ input{
 
 .characterCategories{
   display: flex;
-  width: 75%;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
