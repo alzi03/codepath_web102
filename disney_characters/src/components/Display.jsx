@@ -121,11 +121,13 @@ const Display = () => {
       setFilteredList(gameSet)
     }
   }
+
+  console.log(list)
   
   
 
   return(
-    <div>
+    <div className="displayContent">
       <div className="charts">
         <div className="chart">
           <h4>Number of Films per Character</h4>

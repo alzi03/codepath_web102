@@ -8,3 +8,17 @@ ul{
   list-style-type: none;
 }
 
+.main-content{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.displayContent{
+  margin-top: 50px;
+  flex-basis: 150vh;
+}
+
+Link{
+  text-decoration: none;
+}

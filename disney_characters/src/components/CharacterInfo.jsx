@@ -61,7 +61,7 @@ export default function CharacterInfo()  {
               </div>
 
               <div className="characterSection">
-                <h3>Video games</h3>
+                <h3>Video Games</h3>
                 {information.videoGames && information.videoGames.map(game => 
                   <li>{game}</li>
                 )}

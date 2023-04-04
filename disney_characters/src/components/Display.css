@@ -52,6 +52,7 @@ input{
   justify-content: center;
   gap: 100px;
   margin-right: 40px;
+  width: auto;
 }
 
 .linkButton{
@@ -91,6 +92,7 @@ input{
 .characterDescription{
   display: flex;
   flex-direction: column;
+  width: 160vh;
   align-items: center;
 }
 
