@@ -1,5 +1,5 @@
-import '../../App.css'
-import backgroundImage from '../../assets/giannisImage.webp'
+import '../App.css'
+import backgroundImage from '../assets/giannisImage.webp'
 
 export default function HomePage(){
   return(

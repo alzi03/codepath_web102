@@ -3,57 +3,31 @@ import Post from './Post.jsx'
 import { useState, useEffect } from 'react'
 import { supabase } from '../supabase'
 
-const data = [
-  {
-    title: 'FeetFinder',
-    upvotes: 0,
-    name: 'Jeremy Gallindo',
-    descr: 'I really enjoy taking pictures of feet'
-  },
-  {
-    title: 'Midgets',
-    upvotes: 0,
-    name: 'Adarsh Bharti',
-    descr: 'I cannot physically get enough of gay midget porn' 
-  },
-  {
-    title: 'Midgets',
-    upvotes: 0,
-    name: 'Adarsh Bharti',
-    descr: 'I cannot physically get enough of gay midget porn' 
-  },
-  {
-    title: 'Midgets',
-    upvotes: 0,
-    name: 'Adarsh Bharti',
-    descr: 'I cannot physically get enough of gay midget porn' 
-  },
-  {
-    title: 'Midgets',
-    upvotes: 0,
-    name: 'Adarsh Bharti',
-    descr: 'I cannot physically get enough of gay midget porn' 
-  },
-  {
-    title: 'Midgets',
-    upvotes: 0,
-    name: 'Adarsh Bharti',
-    descr: 'I cannot physically get enough of gay midget porn' 
-  }
-]
-
 export default function Posts() {
   const [posts, setPosts] = useState()
   useEffect(() => {
     const fetchData = async() => {
-      const response = await supabase.from('Posts').select();
+      const response = await supabase
+      .from('Sports_Posts')
+      .select();
+      setPosts(response.data)
     }
     fetchData().catch(console.error)
   }, [])
+
+  const newPost = async(e) => {
+    e.preventDefault();
+    await supabase
+    .from('Sports_Posts')
+    .insert({name:'hi', title:'heloo', descr:'ok', upvotes:50})
+    .select();
+  }
+
   return(
     <div className='postsGallery'>
-      {data && 
-      data.map((post) => 
+      <button onClick={newPost}>New Post</button>
+      {posts && 
+      posts.map((post) => 
       <Post
         name={post.name}
         upvotes={post.upvotes}

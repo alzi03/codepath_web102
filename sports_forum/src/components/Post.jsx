@@ -5,7 +5,7 @@ import upvote from '../assets/upvote.png'
 export default function Post({ upvotes, title, descr, name, id }) {
   const [upvoteCount, setUpvotes] = useState(upvotes)
   return(
-    <div className='post'>
+    <div className='post' key={id}>
       <h1>{title}</h1>
       <div>{name}</div>
       <p>{descr}</p>
