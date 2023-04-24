@@ -1,4 +1,4 @@
-import Posts from "../components/Homepage/Posts"
+import Posts from "../components/Posts"
 
 export default function PostGallery() {
   return(<Posts />)

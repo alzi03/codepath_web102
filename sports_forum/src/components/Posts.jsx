@@ -1,5 +1,7 @@
-import '../../App.css'
+import '../App.css'
 import Post from './Post.jsx'
+import { useState, useEffect } from 'react'
+import { supabase } from '../supabase'
 
 const data = [
   {
@@ -41,6 +43,13 @@ const data = [
 ]
 
 export default function Posts() {
+  const [posts, setPosts] = useState()
+  useEffect(() => {
+    const fetchData = async() => {
+      const response = await supabase.from('Posts').select();
+    }
+    fetchData().catch(console.error)
+  }, [])
   return(
     <div className='postsGallery'>
       {data && 

@@ -1,6 +1,6 @@
-import '../../App.css'
+import '../App.css'
 import { useState, useEffect } from 'react'
-import upvote from '../../assets/upvote.png'
+import upvote from '../assets/upvote.png'
 
 export default function Post({ upvotes, title, descr, name, id }) {
   const [upvoteCount, setUpvotes] = useState(upvotes)
