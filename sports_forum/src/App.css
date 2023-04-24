@@ -1,0 +1,99 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #C5C1C0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.app-Header{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
+  padding: 10px;
+  background-color: #1A2930;
+}
+
+.headerTitle{
+  color: white;
+  font-size: 20px;
+}
+
+.links{
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.Footer{
+  position: relative;
+  margin-top: 80px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #1A2930;
+  font-weight: 600;
+}
+
+h1{
+  margin: 0px;
+  padding: 0px;
+}
+
+.homePage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #0A1612;
+}
+
+/* Posts */
+
+.post{
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  border: 1px solid;
+  padding: 20px;
+  width: 700px;
+}
+
+#upvoteSection{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#upvoteButton:hover ~ #upvoteCount{
+  color: black;
+  font-weight: 530;
+}
+
+
+#upvoteButton{
+  cursor: pointer;
+}
+
+.postsGallery{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  height: 100%;
+}

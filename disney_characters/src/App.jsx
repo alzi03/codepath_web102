@@ -5,7 +5,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
-import Display from './components/Display'
+import Display from './components/Main/Display'
 import CharacterDetail from './routes/CharacterDetail'
 import AboutPage from './routes/AboutPage'
 

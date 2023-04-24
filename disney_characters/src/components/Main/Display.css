@@ -1,0 +1,119 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: aliceblue;
+  background-color: black;
+
+}
+
+h3, h4, .title{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.chart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.charts{
+  display: flex;
+  justify-content: center;
+}
+
+
+input{
+  background-color: lightcyan;
+  border: none;
+  border-radius: 3px;
+}
+
+
+.forms{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character{
+  display:flex;
+  box-shadow: 0px 0px 5px aliceblue;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+  margin-right: 40px;
+  width: auto;
+}
+
+.linkButton{
+  color: #FF0080;
+}
+
+
+.character-visual{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.section-title{
+  font-size: 20px;
+  border: 1px solid;
+  width: 300px;
+  text-align: center;
+}
+
+.characterDescription{
+  display: flex;
+  flex-direction: column;
+  width: 160vh;
+  align-items: center;
+}
+
+.characterCategories{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.categoryRow{
+  display: flex;
+  gap: 50px;
+}
+
+.characterSection{
+  width: 400px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px beige;
+}

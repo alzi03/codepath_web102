@@ -1,4 +1,4 @@
-import './Display.css'
+import './Main/Display.css'
 
 export default function About(){
   return(

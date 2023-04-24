@@ -1,5 +1,5 @@
 import Crewmate from "../components/Crewmate";
 
-export default function(){
+export default function Edit(){
   return(<Crewmate />)
 }

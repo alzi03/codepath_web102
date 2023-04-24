@@ -1,4 +1,4 @@
-import CharacterInfo from "../components/CharacterInfo";
+import CharacterInfo from "../components/Main/CharacterInfo";
 
 const CharacterDetail = () => {
   return(
