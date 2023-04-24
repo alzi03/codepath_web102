@@ -1,0 +1,107 @@
+[Debug] [vite] connecting... (client, line 206)
+[Debug] [vite] connected. (client, line 286)
+[Log] undefined (ArtForm.jsx, line 45)
+[Log] undefined (ArtForm.jsx, line 45)
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Bequest of Frances L. Hofer", accesslevel: 1, dateoflastpageview: "2020-02-13", …}
+1 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+2 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+3 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+4 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+5 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+6 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Part…nd Helen Pratt Dane for the purchase of Asian art", accesslevel: 1, dateoflastpageview: "2023-02-16", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Bequest of Gerhardt Liebmann, by exchange", accesslevel: 1, dateoflastpageview: "2023-02-21", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Gift of Mariot F. Solomon", accesslevel: 1, dateoflastpageview: "2021-03-23", …}
+
+Array Prototype
+
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Bequest of Frances L. Hofer", accesslevel: 1, dateoflastpageview: "2020-02-13", …}
+1 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+2 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+3 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+4 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+5 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+6 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Part…nd Helen Pratt Dane for the purchase of Asian art", accesslevel: 1, dateoflastpageview: "2023-02-16", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Bequest of Gerhardt Liebmann, by exchange", accesslevel: 1, dateoflastpageview: "2023-02-21", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Gift of Mariot F. Solomon", accesslevel: 1, dateoflastpageview: "2021-03-23", …}
+
+Array Prototype
+
+[Debug] [vite] hot updated: /src/components/ArtForm.jsx (client, line 526)
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Bequest of Frances L. Hofer", accesslevel: 1, dateoflastpageview: "2020-02-13", …}
+1 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+2 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+3 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+4 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+5 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+6 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Part…nd Helen Pratt Dane for the purchase of Asian art", accesslevel: 1, dateoflastpageview: "2023-02-16", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Bequest of Gerhardt Liebmann, by exchange", accesslevel: 1, dateoflastpageview: "2023-02-21", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Gift of Mariot F. Solomon", accesslevel: 1, dateoflastpageview: "2021-03-23", …}
+
+Array Prototype
+
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Bequest of Frances L. Hofer", accesslevel: 1, dateoflastpageview: "2020-02-13", …}
+1 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+2 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+3 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+4 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+5 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2021-12-13", …}
+6 {copyright: "© Christian Boltanski / Artists Rights Society (ARS), New York / ADAGP, Paris", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Margaret Fisher Fund", accesslevel: 1, dateoflastpageview: "2014-02-24", …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Part…nd Helen Pratt Dane for the purchase of Asian art", accesslevel: 1, dateoflastpageview: "2023-02-16", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Bequest of Gerhardt Liebmann, by exchange", accesslevel: 1, dateoflastpageview: "2023-02-21", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Gift of Mariot F. Solomon", accesslevel: 1, dateoflastpageview: "2021-03-23", …}
+
+Array Prototype
+
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Langdon Warner", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+1 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-03-19", …}
+2 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Alpheus Hyatt Purchasing Fund", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+3 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Alpheus Hyatt Purchasing Fund", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+4 {copyright: "© Estate of Joseph Janney Steinmetz", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2021-07-19", …}
+5 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2023-02-02", …}
+6 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: null, …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-11-07", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-09-10", …}
+
+Array Prototype
+
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Langdon Warner", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+1 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-03-19", …}
+2 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Alpheus Hyatt Purchasing Fund", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+3 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Alpheus Hyatt Purchasing Fund", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+4 {copyright: "© Estate of Joseph Janney Steinmetz", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2021-07-19", …}
+5 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2023-02-02", …}
+6 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: null, …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-11-07", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-09-10", …}
+
+Array Prototype
+
+[Debug] [vite] hot updated: /src/components/ArtForm.jsx (client, line 526)
+[Log] Array (10) (ArtForm.jsx, line 45)
+0 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Langdon Warner", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+1 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-03-19", …}
+2 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Alpheus Hyatt Purchasing Fund", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+3 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Alpheus Hyatt Purchasing Fund", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+4 {copyright: "© Estate of Joseph Janney Steinmetz", contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2021-07-19", …}
+5 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2023-02-02", …}
+6 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: null, …}
+7 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2023-03-17", …}
+8 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-11-07", …}
+9 {copyright: null, contextualtextcount: 0, creditline: "Harvard Art Museums/Fogg Museum, Transfer from the…s, American Professional Photographers Collection", accesslevel: 1, dateoflastpageview: "2022-09-10", …}
+
+Array Prototype
+
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] (10) (ArtForm.jsx, line 45)
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] (10) (ArtForm.jsx, line 45)
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] (10) (ArtForm.jsx, line 45)
