@@ -18,12 +18,13 @@ export default function Posts() {
       {posts && 
       posts.map((post) => 
       <Post
-        key={post.id}
+        id={post.id}
         name={post.name}
         upvotes={post.upvotes}
         title={post.title}
         descr={post.descr}
       />)}
+      <h1></h1>
     </div>
   )
 }

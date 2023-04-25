@@ -11,6 +11,7 @@ import Header from './components/Header.jsx'
 import HomePage from './components/HomePage.jsx'
 import PostGallery from './pages/PostGallery'
 import CreatePost from './components/CreatePost'
+import PostPage from './pages/PostPage'
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<HomePage />}/>
         <Route path="/posts" element={<PostGallery />} />
         <Route path="/create" element={<CreatePost />} />
+        <Route path="/posts/:id" element={<PostPage />} />
       </Routes>
     </div>
   )

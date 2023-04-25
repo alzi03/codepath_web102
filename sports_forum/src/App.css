@@ -60,7 +60,6 @@ h1{
 .post{
   display: flex;
   flex-direction: column;
-  height: 15%;
   border: 1px solid;
   padding: 20px;
   width: 500px;
@@ -88,8 +87,7 @@ h1{
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
 /* Create */
