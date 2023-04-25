@@ -9,6 +9,7 @@ export default function Posts() {
     const fetchData = async() => {
       const response = await supabase.from('Sports_Posts').select();
       setPosts(response.data)
+      console.log(posts)
     }
     fetchData().catch(console.error)
   }, [])

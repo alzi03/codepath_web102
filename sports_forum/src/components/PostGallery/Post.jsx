@@ -1,19 +1,23 @@
 
 import { useState, useEffect } from 'react'
 import upvote from '../../assets/upvote.png'
+import settings from '../../assets/settings.png'
+import './Post.css'
 
 export default function Post({ upvotes, title, descr, name, id }) {
   const [upvoteCount, setUpvotes] = useState(upvotes)
-
-  const URL = `/posts/${id}`
+  
 
   const handleClick = () => {
     window.location=`/posts/${id}`
   }
 
   return(
-    <div className='post' key={id} onClick={handleClick}>
-      <h1>{title}</h1>
+    <div className='post' key={id}>
+      <div className="firstLine">
+        <h1>{title}</h1>
+        <img src={settings} height="27px" id='settings' onClick={handleClick}/>
+      </div>
       <div>{name}</div>
       <p>{descr}</p>
       <div id='upvoteSection'>
