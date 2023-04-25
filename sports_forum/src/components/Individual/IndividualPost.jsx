@@ -12,7 +12,7 @@ export default function Post(){
     const [ititle, setTitle] = useState()
 
     const [comments, setComments] = useState([])
-    const [newComment, setNew] = useState()
+    const [newComment, setNew] = useState([])
 
     const {id} = useParams();
     const [data, setData] = useState();
@@ -24,10 +24,12 @@ export default function Post(){
             .select()
             .eq('id', id)
             setData(response.data[0])
-            setComments(response.data[0].comments)
+
         }
         fetchData().catch(console.error)
     }, [])
+
+    console.log(data)
 
     const handleSubmit = async(e) => {
         setEdit(false)
@@ -51,14 +53,16 @@ export default function Post(){
 
     const handleComment = async(e) => {
         e.preventDefault();
-        console.log(comments)
-        setComments((prevState) => ({...prevState, newComment}))
+        setComments(data.comments)
+        setComments(prevState => [...prevState, newComment])
         console.log(comments)
 
         await supabase
         .from('Sports_Posts')
         .update({comments: comments})
         .eq('id', id)
+
+       // window.location=`/posts/${id}`
     }
 
     return(
@@ -109,7 +113,7 @@ export default function Post(){
                 </div>
                 }
             </div>
-
+            {data &&
             <div className="commentSection">
                 <div className="commentHeader">
                     <h3>New Comment</h3>
@@ -122,12 +126,13 @@ export default function Post(){
                 <div className="comments">
                     <h1>Comments</h1>
                     <div className="indComments">
-                        {comments &&
-                        comments.map((comment) =><div className="indComment">{comment}</div>)
+                        {data.comments &&
+                        data.comments.map((comment) =><div className="indComment">{comment}</div>)
                         }
                     </div>
                 </div>
             </div>
+            }   
         </div>
     )
 }
